@@ -25,8 +25,7 @@ func main() {
 		}(name)
 	}
 	time.Sleep(10 * time.Nanosecond)
-
-
+	
 	//Unbuffered channels 无缓冲通道
 	// 接收阻塞至收到消息，
 	// 发送阻塞直接收者接收到消息
@@ -39,7 +38,6 @@ func main() {
 	}()
 	<- done
 	fmt.Println(nums)
-
 
 	//Unbuffered channels 有缓冲通道
 	// 缓冲区未满时，发送者仅在值拷贝到缓冲区之前是阻塞的
