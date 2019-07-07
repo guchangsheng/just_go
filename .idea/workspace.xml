@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5b207b13-defb-48de-8239-3de444f78969" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/06.并发/1.goroutine/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,26 +13,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.go">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06.并发/2.lock/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="1086">
+              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
               <folding>
-                <element signature="e#14#61#0" expanded="true" />
+                <element signature="e#127#171#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/main.go">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06.并发/1.goroutine/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-              <folding>
-                <element signature="e#14#47#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-270">
+              <caret line="100" column="34" lean-forward="true" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/sync/waitgroup.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-69">
+              <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -47,6 +53,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>0</find>
+    </findStrings>
     <dirStrings>
       <dir>C:\Users\admin\go\src\awesomeProject</dir>
     </dirStrings>
@@ -65,14 +74,17 @@
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/test/test.go" />
         <option value="$PROJECT_DIR$/test/main.go" />
+        <option value="$PROJECT_DIR$/06.并发/1.1协程与通道/main.go" />
+        <option value="$PROJECT_DIR$/06.并发/1.goroutine/main.go" />
+        <option value="$PROJECT_DIR$/06.并发/2.lock/main.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="22" />
-    <option name="y" value="73" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-44" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -98,6 +110,17 @@
               <item name="just_go" type="b2602c69:ProjectViewProjectNode" />
               <item name="just_go" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="just_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="just_go" type="462c0819:PsiDirectoryNode" />
+              <item name="06.并发" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="just_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="just_go" type="462c0819:PsiDirectoryNode" />
+              <item name="06.并发" type="462c0819:PsiDirectoryNode" />
+              <item name="1.goroutine" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -115,14 +138,15 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\go\src\awesomeProject\test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\go\src\awesomeProject" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/06.并发/1.1协程与通道" />
+      <recent name="C:\Users\admin\go\src\awesomeProject\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -137,22 +161,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Build.06.2">
+    <configuration name="06.1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/06.并发/1.goroutine/main.go" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="06.2" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/06.并发/2.lock/main.go" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build awesomeProject" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$/" />
-      <package value="awesomeProject" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test/main.go" />
       <package value="awesomeProject" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -166,31 +199,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test/test.go" />
-      <package value="awesomeProject" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Go Build.go build awesomeProject" />
-      <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build test.go" />
-      <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.06.2" />
+      <item itemvalue="Go Build.06.1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build test.go" />
+        <item itemvalue="Go Build.06.1" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="825" extended-state="6" />
+    <frame x="-44" y="23" width="1440" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21530758" />
@@ -198,8 +220,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925485" visible="true" weight="0.21555252" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.21087928" weight="0.076398365" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925485" weight="0.23055935" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.21087928" visible="true" weight="0.36016372" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -229,16 +251,6 @@
     <entry file="file://C:/Go/src/fmt/print.go" />
     <entry file="file://C:/Go/src/net/http/server.go" />
     <entry file="file://C:/Go/src/fmt/scan.go" />
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#14#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/runtime/proc.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -246,12 +258,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/main.go">
+    <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        <state relative-caret-position="293">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
-            <element signature="e#14#47#0" expanded="true" />
+            <element signature="e#14#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/sync/waitgroup.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06.并发/1.goroutine/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="100" column="34" lean-forward="true" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06.并发/2.lock/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1086">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#127#171#0" expanded="true" />
           </folding>
         </state>
       </provider>

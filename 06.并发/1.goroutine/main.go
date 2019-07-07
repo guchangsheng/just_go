@@ -162,7 +162,7 @@ func main() {
 			msg, more := <-messages3
 			if !more {
 				fmt.Println("no more message")
-				done <- true
+				done3 <- true
 				break
 			}
 			fmt.Println("message received", msg)
