@@ -189,7 +189,6 @@ func main() {
 		fmt.Println(msg)
 	}
 
-
 	//2.8 超时控制
 	//源访问、网络请求等场景作超时控制是非常必要的，
 	//可以使用channel结合select来实现。如下代码，对常规sum函数增加超时限制，
@@ -205,4 +204,5 @@ func main() {
 		return
 	}
 	fmt.Println(rlt)
+
 }
